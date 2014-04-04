@@ -1,4 +1,4 @@
-//Make sure this is saved as "local.js" in /demo/config/locales/
+//Make sure this whole text is saved as "local.js" in /demo/config/
 
 port: process.env.PORT || 1337,
 
