@@ -77,6 +77,15 @@ module.exports = {
     });
   });
 
+  },
+
+  destroy: function(req, res, next) {
+
+    //Log out
+    req.session.destroy();
+
+    //Redirect to sign-in screen
+    res.redirect('/session/new');
   }
 
 
