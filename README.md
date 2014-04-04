@@ -13,8 +13,8 @@ http://git-scm.com/downloads
 
 4) Type in "git clone https://github.com/aethius/VirtualBioLab.git"
 
-5) Type in "cd demo"
+5) Type in "cd VirtualBioLab/demo"
 
 6) Type in "npm install"
 
-7) Go back to the Git Shell and type in "sails lift"
+7) Type in "sails lift"
