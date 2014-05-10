@@ -101,9 +101,9 @@ Installation (JavaScript/CSS)
 All the previously mentioned technologies must be installed. Open the git shell 
 on any command prompt. Go to the desired directory for the location of the files. 
 Type in “git clone https://github.com/aethius/VirtualBioLab.git”. Type in 
-“cd VirtualBioLab/demo”. Type in “npm  install”. Make sure bcrypt is installed. 
-Sometimes it doesn’t (by fault of the module) and has to be manually installed 
-and placed in necessary location. It should be placed in 
+“cd VirtualBioLab/1_code/JavaScript_CSS/demo”. Type in “npm  install”. Make sure 
+bcrypt is installed. Sometimes it doesn’t (by fault of the module) and has to be 
+manually installed and placed in necessary location. It should be placed in 
 “VirtualBioLab/demo/node_modules”. With bcrypt accurately installed, type in 
 “sails lift”. It is then necessary to type in “http://localhost:1337” into any 
 browser to see the website. 
