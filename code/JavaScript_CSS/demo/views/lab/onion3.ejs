@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<script type="text/javascript">  
+			function error(){
+				alert('You have done something wrong! Do you feel your sample is fully prepared?');
+			}
+
+		</script>
+		<script type="text/javascript">  
+			function error2(){
+				alert('You have done something wrong! Do you believe your sample is fully prepped to be observed?');
+			}
+
+		</script>
+		<script type="text/javascript">  
+			function error3(){
+				alert('You have done something wrong! You have already acquired a small sample of an onion');
+			}
+
+		</script>
+		<script type="text/javascript">  
+			function error4(){
+				alert('You have done something wrong! Do you understand what the blue dye was used for?');
+			}
+		</script> 
+		<style>
+
+			body{
+				background-image: url("placeOnionOnSlide.jpg");
+				background-size:480px 500px;
+				background-repeat:no-repeat;
+				background-position:right top;
+			}
+		</style>
+		<style>
+			table
+			{
+				width:50%;
+			}
+			th
+			{
+				background-color:rgb(50,100,220);
+				color:white;
+				height:50px;
+			}
+			table, td, th
+			{
+				border:2px solid blue;
+			}
+			td
+			{
+				height:50px;
+				vertical-align:bottom;
+			}
+		</style>
+
+	</head>
+	<body>
+	<table>
+		<th>GOOD! The sample is now on the slide
+
+		WHAT ARE YOU GOING TO DO NOW STUDENT?</th>
+		<tr>
+		 <td>
+		 		<button onclick="window.location.assign('onion4')">
+			PUT BLUE DYE ON THE SAMPLE
+				</button>
+		  </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error();'>
+			PUT SLIDE COVER ON THE SLIDE
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error2();'>
+			CARRY SAMPLE OVER TO MICROSCOPE
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error3();'>
+			SLICE OFF SAMPLE OF ONION
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error4();'>
+			PUT BLUE DYE ON THE SLIDE
+				</button>
+		 </td> 
+		</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+	<head>
+	</head>
+	<body>
+		GOOD! The slide cover is now covering the sample
+
+		WHAT ARE YOU GOING TO DO NOW STUDENT?
+	<table border="1" style="width:300px">
+		<tr>
+		 <td>
+		 		<button>
+			PUT BLUE DYE ON THE ONION
+				</button>
+		  </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button>
+			PUT SLIDE COVER ON THE SLIDE
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button>
+			CARRY ONION OVER TO MICROSCOPE
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button>
+			SLICE OFF SAMPLE OF ONION
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick="window.location.assign('microscope.html')">
+			BRING SAMPLE OVER TO MICROSCOPE
+				</button>
+		 </td> 
+		</tr>
+		</table>
+	</body>
+</html>

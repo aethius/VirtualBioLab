@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<script type="text/javascript">  
+			function error(){
+				alert('You have done something wrong! You have already done this step student');
+			}
+
+		</script>
+		<script type="text/javascript">  
+			function error2(){
+				alert('You have done something wrong! You have forgotten an important step in preparing your sample correctly');
+			}
+
+		</script>
+		<script type="text/javascript">  
+			function error3(){
+				alert('You have done something wrong! You have already acquired a small sample of an onion');
+			}
+
+		</script>
+		<script type="text/javascript">  
+			function error4(){
+				alert('You have done something wrong! The point is to view the cross-section of the onion, the slice of the onion is perfect for viewing and slicing the sample into finer pieces will make it harder to see the desired viewing area');
+			}
+		</script> 
+		<style>
+
+			body{
+				background-image: url("applyBlueDye.jpg");
+				background-size:480px 500px;
+				background-repeat:no-repeat;
+				background-position:right top;
+			}
+		</style>
+		<style>
+			table
+			{
+				width:50%;
+			}
+			th
+			{
+				background-color:rgb(50,100,220);
+				color:white;
+				height:50px;
+			}
+			table, td, th
+			{
+				border:2px solid blue;
+			}
+			td
+			{
+				height:50px;
+				vertical-align:bottom;
+			}
+		</style>
+	</head>
+	<body>
+	<table>
+		<th>GOOD! The sample now has blue dye on it. 
+
+		WHAT ARE YOU GOING TO DO NOW STUDENT?</th>
+		<tr>
+		 <td>
+		 		<button onclick='error();'>
+			PUT BLUE DYE ON THE ONION
+				</button>
+		  </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick="window.location.assign('onion5.html')">
+			PUT SLIDE COVER ON THE SLIDE
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error2();'>
+			CARRY SAMPLE OVER TO MICROSCOPE
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error3();'>
+			SLICE OFF SAMPLE OF ONION
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error4();'>
+			CUT THE ONION INTO FINER PIECES
+				</button>
+		 </td> 
+		</tr>
+		</table>
+	</body>
+</html>

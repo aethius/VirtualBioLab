@@ -1,0 +1,102 @@
+<html>
+	<head>
+		
+		<script type="text/javascript">  
+			function error(){
+				alert('You have done something wrong! You should not be putting blue dye on the onion at this juncture');
+			}
+
+		</script>
+		<script type="text/javascript">  
+			function error2(){
+				alert('You have done something wrong! Why would you put the slide cover on the slide if you do not even have anything on the slide yet?');
+			}
+
+		</script>
+		<script type="text/javascript">  
+			function error3(){
+				alert('You have done something wrong! This is a bulky sample of an onion student, I do not think it will even fit in the microscope!');
+			}
+
+		</script>
+		<script type="text/javascript">  
+			function error4(){
+				alert('You have done something wrong! Do you understand the use of the blue dye?');
+			}
+
+		</script>
+		<style>
+
+			body{
+				background-image: url("onion.jpg");
+				background-size:500px 500px;
+				background-repeat:no-repeat;
+				background-position:right top;
+			}
+		</style>
+		<style>
+			table
+			{
+				width:50%;
+			}
+			th
+			{
+				background-color:rgb(50,100,220);
+				color:white;
+				height:50px;
+			}
+			table, td, th
+			{
+				border:2px solid blue;
+			}
+			td
+			{
+				height:50px;
+				vertical-align:bottom;
+			}
+		</style>
+	</head>
+	<body>
+	<table>
+		<th> YOU HAVE NOW WALKED OVER TO THE BENCH
+
+		WHAT ARE YOU GOING TO DO NOW STUDENT? </th>
+		<tr>
+		 <td>
+		 		<button onclick='error();'>
+			PUT BLUE DYE ON THE ONION
+				</button>
+		  </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error2();'>
+			PUT SLIDE COVER ON THE SLIDE
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error3();'>
+			CARRY ONION OVER TO MICROSCOPE
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick="window.location.assign('onion2')">
+			SLICE OFF SAMPLE OF ONION
+				</button>
+		 </td> 
+		</tr>
+		<tr>
+		 <td>
+				<button onclick='error4();'>
+			PUT BLUE DYE ON THE SLIDE
+				</button>
+		 </td> 
+		</tr>
+		
+		</table>
+	</body>
+</html>
